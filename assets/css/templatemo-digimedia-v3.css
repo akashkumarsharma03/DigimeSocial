@@ -664,6 +664,9 @@ header
   }
   .header-area .main-nav .logo {
     color: #1e1e1e;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
